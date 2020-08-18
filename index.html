@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to Bootstrap 1.1</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdm.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href=" https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -22,17 +24,17 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="products.html">Products</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
 
     </nav>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -53,24 +55,30 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, odit minus. Veritatis voluptatem
                     assumenda ipsa? Consectetur voluptatibus harum at fuga reiciendis temporibus, fugit ex provident,
                     dignissimos labore est tempora. Pariatur?</p>
-                    <a href="products.html" class="btn btn-primary">View more</a>
+                <a href="products.html" class="btn btn-primary">View more</a>
             </div>
             <div class="col-md">
                 <h3>Heading 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab totam nostrum quidem! Quidem
                     reiciendis dolore, velit ab magni molestias dolor cupiditate excepturi accusamus assumenda sunt
                     tempora cumque fugit provident!</p>
-                    <a href="products.html" class="btn btn-primary">View more</a>
+                <a href="products.html" class="btn btn-primary">View more</a>
             </div>
             <div class="col-md">
                 <h3>Heading 3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facere, distinctio nulla
                     quibusdam iure ad laborum, nesciunt molestias dignissimos omnis pariatur at fugiat obcaecati
                     voluptatum ducimus. Iste voluptatem veniam iusto!</p>
-                    <a href="products.html" class="btn btn-primary">View more</a>
+                <a href="products.html" class="btn btn-primary">View more</a>
             </div>
         </div>
     </div>
+
+    <footer>
+        <div><i class="fa fa-twitter"></i> <i class="fa fa-vimeo"></i></div>
+        <div>Copyright 2020</div>
+        <div><a href="terms.html">terms</a> | <a href="policy.html">Privacy Policy</a></div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
