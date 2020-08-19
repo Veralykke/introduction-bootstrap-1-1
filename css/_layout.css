@@ -25,7 +25,7 @@ footer a{
     color: #8d8d8d;
 }
 footer a:hover{
-color: white:
+color: white;
 }
 footer i {
     color: white;
@@ -33,5 +33,6 @@ footer i {
 }
     
 .wrapper {
-    flex: 1 0 auto;
+    flex: 1 0 auto; /* Hu? */
+    flex: row wrap; /* ? */
 }

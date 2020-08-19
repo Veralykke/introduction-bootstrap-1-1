@@ -8,6 +8,10 @@
     text-transform: uppercase;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    font-size: 15px;
+}
 .navbar-dark .navbar-nav .active > .nav-link {
     color: var(--primary-colour);
 }
