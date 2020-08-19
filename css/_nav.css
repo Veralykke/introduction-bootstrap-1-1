@@ -8,7 +8,7 @@
     text-transform: uppercase;
 }
 
-.navbar-dark .navbar-nav .avtive-link {
+.navbar-dark .navbar-nav .active > .nav-link {
     color: var(--primary-colour);
 }
 navbar.collaps{

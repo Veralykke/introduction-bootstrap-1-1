@@ -4,10 +4,13 @@ body {
 }
 body{
     font-family: "Archivo Narrow", sans-serif;
-    background-image: url(/images/texture.png);
+    background-image: url("/images/texture.png");
     background-color: var(--background-colour);
     color: white;
+    display: flex;
+    flex-direction: column;
 }
+
 footer{
     display: flex;
     flex-shrink: 0;
@@ -21,10 +24,10 @@ footer{
 footer a{
     color: #8d8d8d;
 }
-footer a: hover{
+footer a:hover{
 color: white:
 }
-footer i{
+footer i {
     color: white;
     font-size: 1em;
 }

@@ -1,0 +1,10 @@
+.form-control {
+background-color: var(--background-dark);
+color: white;
+border:none;
+}
+.contact-form .btn {
+    background-color: var(--primary-colour);
+    border: none;
+    width: 100%;
+}

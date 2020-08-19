@@ -31,3 +31,24 @@ carousel-indicators li{
     font-size: 0.9rem;
     flex: 1;
 }
+.home-block .btn{
+    font-size: 0.8rem;
+    background: var(--background-dark);
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+}
+.home-block .btn:before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background: var(--primary-colour);
+}
+@media (min-width: 992px) {
+    .home-block .btn {
+        width: 50%;
+    }
+}
